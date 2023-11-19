@@ -2,14 +2,50 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-image: url('bg.png');
     color: #333;
 }
-
-
-header {
-    background-color: #fff;
+#headImage {
+    margin-left: 42%;
+    margin-top: 4%;
+}
+#id2{
+    margin-left: 42%;
+}
+#this{
+    text-align: center;
+}
+#mystory{
+    font-family: 'Bebas Neue', sans-serif;
     color: #000099;
+    font-size: 150%;
+}
+#phoneandemail{
+    text-align: center;
+}
+table,tr,td {
+   border: 2px solid #000099;
+   border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    filter: drop-shadow(3px 3px 3px rgba(0,0,0.6,0.6));
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.large-text{
+    font-size:30px;
+}
+header {
+   
     text-align: center;
     padding: 2em 0;  
 }
@@ -22,15 +58,23 @@ section {
     border-radius: 15px;
 }
 .large-text{
+    color: #000099;
     font-size: 28px;
 }
 
+#hey{
+    color: #ffffff;
+}
+#aboutme{
+    color: #000099;
+}
 
-h1, h2, h3 {
+ h3 {
     color: #000099;
 }
 
 h1 {
+    color: #fff;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -103,3 +147,14 @@ footer {
     background-color: #3498db;
     color: #fff;
 }
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.box{}
+
+ /* Through this step, I set up the basic style of my website. Good to try!  */
