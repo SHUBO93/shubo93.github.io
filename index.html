@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/styles.css" rel="stylesheet" />
 	<title> SHUBO'S PORTFOLIO </title>
-	<script src="script.js"></script>
+	<script async src="script.js"></script>
 	<!-- this is my design work!! -->
 </head>
 
@@ -26,25 +26,31 @@
 			</div>
 			<div id="personal_links">
 				<div>
-					<a href="#about">INS</a>
+					<a href="https://www.instagram.com/shubo_zhang/">INS</a>
 				</div>
 				<div>
-					<a href="#projects">LINKEDIN</a>
+					<a href="https://www.linkedin.com/feed/">LINKEDIN</a>
 				</div>
-				<div>
-					<a href="#contact">CONTACT</a>
-				</div>
+
 			</div>
 		</nav>
 		<div id="headimagewrap">
 			<img id="headImage" src="Asset 1@2x.png" alt="my id design vison 1" width=auto height="149">
 		</div>
-	
-			<h1> SHUBO'S PORTFOLIO </h1>
+
+		<h1> SHUBO'S PORTFOLIO </h1>
 	</header>
 	<main>
 		<article>
-			<h2 id="hey">Hey, this is SHUBO!</h2>
+			<div id="hey_button">
+				<button type="button" onclick="clickFunction()" id="btn-alert">Hey, this is SHUBO!</button>
+			</div>
+			<div id="Do_not">
+				<button type="button" onclick="clickFunction()" id="btn-counter">
+					<p id="txt-counter">Number: 1</p>
+				</button>
+			</div>
+
 			<section id="#about">
 				<h2 id="aboutme" class="large-text">About me</h2>
 				<p id="mystory">
@@ -63,8 +69,12 @@
 
 				</figure>
 			</section>
+			
 			<section id="projects">
 				<h2 class="large-text">Projects</h2>
+				<ol id="numbers">
+
+				</ol>
 				<table class="center">
 					<tr>
 						<td>HUGO EXHIBITION</td>
@@ -85,8 +95,9 @@
 					<li>
 						"victor hugo"
 					</li>
-					<center><img src="hugo exhibition.JPG" alt="exhibition " width="464.9" height="645" class="center">
-					</center>
+					<div id="hugo_image"><img src="hugo exhibition.JPG" alt="exhibition " width="464.9" height="645">
+					</div>
+
 					<!-- this is my design work!! -->
 					<h3>FOODFINDING SYSTEM GUIDELINES OF MELBOUREN CHINATOWN</h3>
 					<p>This is an experimental project from 2018, a comprehensive set of signage and planning guidelines
@@ -111,8 +122,8 @@
 			</section>
 		</article>
 	</main>
-	
-	<footer> © SHUBO ZHANG 2023 </footer>
+
+	<footer id="footer"> © SHUBO ZHANG </footer>
 </body>
 
 </html>

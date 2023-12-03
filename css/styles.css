@@ -20,6 +20,14 @@ body {
     color: #000099;
     font-size: 150%;
 }
+#hey_button{
+    display: flex;
+    justify-content: center;
+
+}
+#Do_not{
+    display: flex;
+    justify-content: center;}
 #phoneandemail{
     text-align: center;
 }
@@ -30,9 +38,9 @@ table,tr,td {
 td{
     text-align: center;
 }
-.center{
-    margin-left: auto;
-    margin-right: auto;
+#hugo_image{
+    display: flex; 
+    justify-content: center;
 }
 img{
     filter: drop-shadow(3px 3px 3px rgba(0,0,0.6,0.6));
@@ -59,8 +67,15 @@ section {
     font-size: 28px;
 }
 
-#hey{
-    color: #ffffff;
+#btn-alert{
+    color: #0047fb;
+    font-size: 20px;
+    
+}
+#btn-counter{
+    color: #0047fb;
+    font-size: 14.5px;
+    
 }
 #aboutme{
     color: #000099;
@@ -180,7 +195,12 @@ nav{
     display: flex;
     align-items: center;
 }
-
+.even{
+    color:red;
+}
+.odd{
+    color: chartreuse;
+}
 
 
 
