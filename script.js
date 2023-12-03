@@ -1,6 +1,7 @@
 document.getElementById("footer").innerHTML = "© SHUBO ZHANG     " + Date()
 function clickFunction() {
     alert("THIS IS SHUBO'S WEBSITE")
+    console.log("clicked")
 }
 let btn = document.getElementById('btn-alert')
 
